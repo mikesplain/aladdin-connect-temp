@@ -1,0 +1,18 @@
+{
+  "domain": "aladdin_connect",
+  "name": "Aladdin Connect Temp",
+  "codeowners": [
+    "@mikesplain"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "application_credentials"
+  ],
+  "documentation": "https://github.com/mikesplain/aladdin-connect-temp",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/mikesplain/aladdin-connect-temp/issues",
+  "requirements": [
+    "genie-partner-sdk==1.0.2"
+  ],
+  "version": "0.0.1"
+}
