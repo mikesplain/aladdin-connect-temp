@@ -1,0 +1,13 @@
+{
+  "domain": "s3",
+  "name": "S3",
+  "codeowners": ["@mikesplain"],
+  "config_flow": true,
+  "documentation": "https://github.com/mikesplain/aladdin-connect-temp",
+  "issue_tracker": "https://github.com/mikesplain/aladdin-connect-temp/issues",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "loggers": ["aiobotocore"],
+  "quality_scale": "bronze",
+  "requirements": ["aiobotocore==2.21.1"]
+}
